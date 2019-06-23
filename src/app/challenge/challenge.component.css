@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    border: 1px solid blue;
+    padding: 30px;
+}
+li{
+    display: inline-flex;
+    list-style: none;
+    padding-right: 10px;
+}
+.block-letter {
+    display: flex;
+    justify-content: center;
+}
+.letterMain {
+    font-size: 6rem;
+    color: red;
+    padding: 50px;
+}
+.pic {
+}
+.pic img{
+    max-width: 250px;
+}
+.block-word{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+p.word{
+    display: inline-flex;
+    justify-content: center;
+}
+.alphavit{
+    display: flex;
+
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 24px;
+}
+p span{
+    font-size: 3rem;
+    color: red;
+}
