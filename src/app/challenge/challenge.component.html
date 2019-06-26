@@ -1,8 +1,12 @@
+<!--<app-letter1></app-letter1>-->
+<!--<app-letter2 [ngClass]="'active'"></app-letter2>-->
+<!--<app-letter3 [ngClass]="'active'"></app-letter3>-->
+<!--<app-letter4 [ngClass]="'active'"></app-letter4>-->
+<!--<app-letter5 *ngIf="[activeLetter]"></app-letter5>-->
 
 <div class="alphavit">
     <ul>
-        <li *ngFor="let lett of letters">
-            <a routerLink="/challenge/{{lett.name}}">{{ lett.name }}</a>
-        </li>
+        <li *ngFor="let item of list" (click)="onSelectItem(item)" [class.active]="item == activeItem" routerLink="/challenge/{{ item }}">{{ item }}</li>
     </ul>
 </div>
+<!--(click)="goTo(item)"-->

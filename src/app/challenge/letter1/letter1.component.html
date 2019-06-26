@@ -1,4 +1,4 @@
-<div class="block-letter">
+<div class="block-letter" >
     <div class="letterMain">
         <p> Аа </p>
     </div>
@@ -8,6 +8,6 @@
 </div>
 <div class="block-word">
     <p>Найдите (кликните) букву <span>а</span> в слове:</p>
-    <p class="word" >{{(random(rndWrd))}}</p>
+    <p class="word" (click)="findLetter(rand)">{{ rand }}</p>
 </div>
 <app-challenge></app-challenge>

@@ -11,6 +11,11 @@ li{
     display: inline-flex;
     list-style: none;
     padding-right: 10px;
+    cursor: pointer;
+}
+.active{
+    text-decoration: underline;
+    color: red;
 }
 .block-letter {
     display: flex;
@@ -36,6 +41,7 @@ li{
 p.word{
     display: inline-flex;
     justify-content: center;
+    font-size: 32px;
 }
 .alphavit{
     display: flex;
